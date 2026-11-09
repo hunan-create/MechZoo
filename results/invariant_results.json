@@ -1,0 +1,14 @@
+{
+  "probit": {
+    "rho_Cest_vs_C": 0.87,
+    "n": 120
+  },
+  "logit": {
+    "rho_Cest_vs_C": 0.918,
+    "n": 120
+  },
+  "threshold": {
+    "rho_Cest_vs_C": NaN,
+    "n": 120
+  }
+}

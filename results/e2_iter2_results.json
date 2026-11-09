@@ -1,0 +1,44 @@
+{
+  "pools": {
+    "base_fresh": {
+      "model": 0.792,
+      "B1": 0.444,
+      "B2": 0.709,
+      "model_acc": 0.817,
+      "entropy_mean": 0.507
+    },
+    "novel": {
+      "model": 0.448,
+      "B1": 0.387,
+      "B2": 0.499,
+      "model_acc": 0.703,
+      "entropy_mean": 0.691
+    },
+    "real_injected": {
+      "model": 0.432,
+      "B1": 0.257,
+      "B2": 0.428,
+      "model_acc": 0.458,
+      "entropy_mean": 0.707
+    }
+  },
+  "param_mae_base": 0.823,
+  "param_spearman_novel": 0.083,
+  "auroc_model": 0.934,
+  "auroc_little": 0.882,
+  "auroc_model_smallN": 0.922,
+  "auroc_little_smallN": 0.876,
+  "gate_a": true,
+  "gate_b": false,
+  "gate_c": true,
+  "args": {
+    "smoke": false,
+    "ckpt": "e1_model_iter2.pt",
+    "device": "cuda",
+    "probe_per_class": 250,
+    "test_per_class": 100,
+    "real_per_table": 8,
+    "skip_real": false,
+    "out": "e2_iter2_results.json"
+  }
+}

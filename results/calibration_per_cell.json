@@ -1,0 +1,22 @@
+{
+  "in-dist": {
+    "ECE_coarse": 0.041,
+    "ECE_fine": 0.035
+  },
+  "base-fresh": {
+    "ECE_coarse": 0.033,
+    "ECE_fine": 0.019
+  },
+  "held-out": {
+    "ECE_coarse": 0.067,
+    "ECE_fine": null
+  },
+  "real-inj": {
+    "ECE_coarse": 0.223,
+    "ECE_fine": null
+  },
+  "joint-shift": {
+    "ECE_coarse": 0.305,
+    "ECE_fine": null
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "ckpt": "e1_model_iter2.pt",
+    "h": 128,
+    "probe_seed": 21,
+    "probe_per_class": 250,
+    "boot": 2000,
+    "shift": 0
+  },
+  "cells": {
+    "in_dist": {
+      "n_tables": 900,
+      "L1_f1": 0.946,
+      "L1_acc": 0.909,
+      "L2_f1": 0.868,
+      "L2_acc": 0.838,
+      "L2_n": 745,
+      "trivial": {
+        "L1_F1_allpos": 0.906,
+        "L2_F1_majority": 0.753,
+        "L2_acc_majority": 0.604,
+        "p_nonmcar": 0.828,
+        "p_mnar": 0.604
+      },
+      "ece6": 0.0426,
+      "covrisk_090": {
+        "coverage": 0.424,
+        "risk": 0.0443,
+        "n_cov": 316
+      },
+      "B1": {
+        "L1_f1": 0.906,
+        "L2_f1": 0.826,
+        "ece6": 0.0355
+      },
+      "B2": {
+        "L1_f1": 0.927,
+        "L2_f1": 0.888,
+        "ece6": 0.0924
+      }
+    },
+    "base_fresh": {
+      "n_tables": 600,
+      "L1_f1": 0.95,
+      "L1_acc": 0.915,
+      "L2_f1": 0.889,
+      "L2_acc": 0.859,
+      "L2_n": 498,
+      "trivial": {
+        "L1_F1_allpos": 0.907,
+        "L2_F1_majority": 0.752,
+        "L2_acc_majority": 0.602,
+        "p_nonmcar": 0.83,
+        "p_mnar": 0.602
+      },
+      "ece6": 0.0327,
+      "covrisk_090": {
+        "coverage": 0.442,
+        "risk": 0.0318,
+        "n_cov": 220
+      },
+      "B1": {
+        "L1_f1": 0.907,
+        "L2_f1": 0.814,
+        "ece6": 0.043
+      },
+      "B2": {
+        "L1_f1": 0.927,
+        "L2_f1": 0.88,
+        "ece6": 0.0759
+      }
+    },
+    "novel": {
+      "n_tables": 300,
+      "L1_f1": 0.993,
+      "L1_acc": 0.987,
+      "L2_f1": 0.78,
+      "L2_acc": 0.707,
+      "L2_n": 300,
+      "trivial": {
+        "L1_F1_allpos": 1.0,
+        "L2_F1_majority": 0.8,
+        "L2_acc_majority": 0.667,
+        "p_nonmcar": 1.0,
+        "p_mnar": 0.667
+      },
+      "ece6": 0.6899,
+      "covrisk_090": {
+        "coverage": 0.187,
+        "risk": 0.1607,
+        "n_cov": 56
+      },
+      "B1": {
+        "L1_f1": 1.0,
+        "L2_f1": 0.797,
+        "ece6": 0.3712
+      },
+      "B2": {
+        "L1_f1": 0.985,
+        "L2_f1": 0.85,
+        "ece6": 0.592
+      }
+    },
+    "real_inj": {
+      "n_tables": 192,
+      "L1_f1": 0.822,
+      "L1_acc": 0.781,
+      "L2_f1": 0.62,
+      "L2_acc": 0.531,
+      "L2_n": 128,
+      "trivial": {
+        "L1_F1_allpos": 0.8,
+        "L2_F1_majority": 0.857,
+        "L2_acc_majority": 0.75,
+        "p_nonmcar": 0.667,
+        "p_mnar": 0.75
+      },
+      "ece6": 0.2074,
+      "covrisk_090": {
+        "coverage": 0.422,
+        "risk": 0.463,
+        "n_cov": 54
+      },
+      "B1": {
+        "L1_f1": 0.8,
+        "L2_f1": 0.802,
+        "ece6": 0.0997
+      },
+      "B2": {
+        "L1_f1": 0.856,
+        "L2_f1": 0.83,
+        "ece6": 0.0788
+      }
+    },
+    "joint_shift": {
+      "n_tables": 240,
+      "L1_f1": 0.871,
+      "L1_acc": 0.771,
+      "L2_f1": 0.607,
+      "L2_acc": 0.562,
+      "L2_n": 240,
+      "trivial": {
+        "L1_F1_allpos": 1.0,
+        "L2_F1_majority": 0.8,
+        "L2_acc_majority": 0.667,
+        "p_nonmcar": 1.0,
+        "p_mnar": 0.667
+      },
+      "ece6": 0.6988,
+      "covrisk_090": {
+        "coverage": 0.383,
+        "risk": 0.3804,
+        "n_cov": 92
+      },
+      "B1": {
+        "L1_f1": 1.0,
+        "L2_f1": 0.736,
+        "ece6": 0.3995
+      },
+      "B2": {
+        "L1_f1": 0.954,
+        "L2_f1": 0.824,
+        "ece6": 0.5349
+      }
+    }
+  },
+  "auroc": {
+    "n": 1092,
+    "n_nonmcar": 926,
+    "n_mcar": 166,
+    "model": 0.9541,
+    "little": 0.8994,
+    "diff_pp": 5.48,
+    "diff_ci95": [
+      3.58,
+      7.44
+    ],
+    "model_smalln": 0.9455,
+    "little_smalln": 0.8891,
+    "smalln_rows_lt": 600,
+    "smalln_n": 514
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "base_fresh": {
+    "L2_f1": 0.737,
+    "acc": 0.613,
+    "n": 493,
+    "n_unevaluable": 3,
+    "mnar_detected_rate": 0.866
+  },
+  "novel": {
+    "L2_f1": 0.778,
+    "acc": 0.653,
+    "n": 300,
+    "n_unevaluable": 0,
+    "mnar_detected_rate": 0.893
+  },
+  "real_inj": {
+    "L2_f1": 0.844,
+    "acc": 0.734,
+    "n": 128,
+    "n_unevaluable": 0,
+    "mnar_detected_rate": 0.953
+  },
+  "joint_shift": {
+    "L2_f1": 0.793,
+    "acc": 0.662,
+    "n": 240,
+    "n_unevaluable": 0,
+    "mnar_detected_rate": 0.963
+  }
+}

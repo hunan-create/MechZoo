@@ -1,0 +1,185 @@
+{
+  "B3_esn": {
+    "grid": [
+      {
+        "tau2": 0.0,
+        "b": 0.5,
+        "theory_skew": 0.0239,
+        "emp_oracle": -0.053,
+        "emp_refit": -0.0532
+      },
+      {
+        "tau2": 0.0,
+        "b": 1.0,
+        "theory_skew": 0.1369,
+        "emp_oracle": -0.141,
+        "emp_refit": -0.1406
+      },
+      {
+        "tau2": 0.0,
+        "b": 2.0,
+        "theory_skew": 0.4538,
+        "emp_oracle": -0.4455,
+        "emp_refit": -0.4444
+      },
+      {
+        "tau2": 0.0,
+        "b": 3.0,
+        "theory_skew": 0.667,
+        "emp_oracle": -0.6585,
+        "emp_refit": -0.6567
+      },
+      {
+        "tau2": 0.2,
+        "b": 0.5,
+        "theory_skew": 0.0163,
+        "emp_oracle": -0.0126,
+        "emp_refit": -0.0132
+      },
+      {
+        "tau2": 0.2,
+        "b": 1.0,
+        "theory_skew": 0.0852,
+        "emp_oracle": -0.0743,
+        "emp_refit": -0.0992
+      },
+      {
+        "tau2": 0.2,
+        "b": 2.0,
+        "theory_skew": 0.2428,
+        "emp_oracle": -0.2401,
+        "emp_refit": -0.3812
+      },
+      {
+        "tau2": 0.2,
+        "b": 3.0,
+        "theory_skew": 0.3313,
+        "emp_oracle": -0.3524,
+        "emp_refit": -0.594
+      },
+      {
+        "tau2": 0.5,
+        "b": 0.5,
+        "theory_skew": 0.0075,
+        "emp_oracle": -0.0039,
+        "emp_refit": -0.0075
+      },
+      {
+        "tau2": 0.5,
+        "b": 1.0,
+        "theory_skew": 0.0348,
+        "emp_oracle": -0.0372,
+        "emp_refit": -0.0629
+      },
+      {
+        "tau2": 0.5,
+        "b": 2.0,
+        "theory_skew": 0.0843,
+        "emp_oracle": -0.0835,
+        "emp_refit": -0.2502
+      },
+      {
+        "tau2": 0.5,
+        "b": 3.0,
+        "theory_skew": 0.1073,
+        "emp_oracle": -0.1141,
+        "emp_refit": -0.3907
+      },
+      {
+        "tau2": 0.81,
+        "b": 0.5,
+        "theory_skew": 0.0017,
+        "emp_oracle": -0.0124,
+        "emp_refit": -0.0137
+      },
+      {
+        "tau2": 0.81,
+        "b": 1.0,
+        "theory_skew": 0.007,
+        "emp_oracle": -0.0053,
+        "emp_refit": -0.0164
+      },
+      {
+        "tau2": 0.81,
+        "b": 2.0,
+        "theory_skew": 0.0151,
+        "emp_oracle": -0.0272,
+        "emp_refit": -0.0998
+      },
+      {
+        "tau2": 0.81,
+        "b": 3.0,
+        "theory_skew": 0.0183,
+        "emp_oracle": -0.0092,
+        "emp_refit": -0.131
+      }
+    ],
+    "corr_theory_oracle": -0.9983,
+    "corr_theory_refit": -0.8953
+  },
+  "B4_lambda": [
+    {
+      "lam": 0.2,
+      "entropy": 0.907,
+      "mv_signal": 0.375
+    },
+    {
+      "lam": 0.4,
+      "entropy": 0.823,
+      "mv_signal": 0.355
+    },
+    {
+      "lam": 0.6,
+      "entropy": 0.75,
+      "mv_signal": 0.322
+    },
+    {
+      "lam": 0.8,
+      "entropy": 0.874,
+      "mv_signal": 0.254
+    },
+    {
+      "lam": 0.95,
+      "entropy": 0.982,
+      "mv_signal": 0.14
+    }
+  ],
+  "A2_invariant": [
+    {
+      "link": "probit",
+      "b": 1.0,
+      "a": -0.674,
+      "C_q90_q10": 0.703
+    },
+    {
+      "link": "probit",
+      "b": 2.0,
+      "a": -0.674,
+      "C_q90_q10": 0.97
+    },
+    {
+      "link": "probit",
+      "b": 3.0,
+      "a": -0.674,
+      "C_q90_q10": 0.999
+    },
+    {
+      "link": "logit",
+      "b": 1.0,
+      "a": -1.099,
+      "C_q90_q10": 0.461
+    },
+    {
+      "link": "logit",
+      "b": 2.0,
+      "a": -1.099,
+      "C_q90_q10": 0.787
+    },
+    {
+      "link": "logit",
+      "b": 3.0,
+      "a": -1.099,
+      "C_q90_q10": 0.933
+    }
+  ]
+}

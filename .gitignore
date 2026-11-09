@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+code/*.json
+code/*.npz
+code/*.pt
+!code/data_cache/**
+code/data_cache/sk/

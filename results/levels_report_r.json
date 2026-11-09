@@ -1,0 +1,202 @@
+{
+  "in_dist": {
+    "systems": {
+      "model": {
+        "L1_mcarF1": 0.945,
+        "L1_acc": 0.908,
+        "L2_marMnarF1": 0.86,
+        "L2_n": 745
+      },
+      "B1": {
+        "L1_mcarF1": 0.906,
+        "L1_acc": 0.828,
+        "L2_marMnarF1": 0.714,
+        "L2_n": 745
+      },
+      "B2": {
+        "L1_mcarF1": 0.927,
+        "L1_acc": 0.873,
+        "L2_marMnarF1": 0.865,
+        "L2_n": 745
+      }
+    },
+    "trivial": {
+      "n_tables": 900,
+      "p_nonmcar": 0.828,
+      "p_mnar_within_nonmcar": 0.604,
+      "trivial_L1_F1": 0.906,
+      "trivial_L2_F1": 0.753,
+      "trivial_L2_acc": 0.604
+    },
+    "meta": {
+      "ckpt": "e1_model_retrain.pt",
+      "shift": 0,
+      "tag": "_r",
+      "probe_train_seed": 21,
+      "probe_per_class": 250,
+      "degraded": {
+        "skip->mcar": 62
+      }
+    }
+  },
+  "base_fresh": {
+    "systems": {
+      "model": {
+        "L1_mcarF1": 0.952,
+        "L1_acc": 0.918,
+        "L2_marMnarF1": 0.877,
+        "L2_n": 498
+      },
+      "B1": {
+        "L1_mcarF1": 0.907,
+        "L1_acc": 0.83,
+        "L2_marMnarF1": 0.709,
+        "L2_n": 498
+      },
+      "B2": {
+        "L1_mcarF1": 0.927,
+        "L1_acc": 0.872,
+        "L2_marMnarF1": 0.862,
+        "L2_n": 498
+      }
+    },
+    "trivial": {
+      "n_tables": 600,
+      "p_nonmcar": 0.83,
+      "p_mnar_within_nonmcar": 0.602,
+      "trivial_L1_F1": 0.907,
+      "trivial_L2_F1": 0.752,
+      "trivial_L2_acc": 0.602
+    },
+    "meta": {
+      "ckpt": "e1_model_retrain.pt",
+      "shift": 0,
+      "tag": "_r",
+      "probe_train_seed": 21,
+      "probe_per_class": 250,
+      "degraded": {
+        "skip->mcar": 62
+      }
+    }
+  },
+  "novel": {
+    "systems": {
+      "model": {
+        "L1_mcarF1": 0.992,
+        "L1_acc": 0.983,
+        "L2_marMnarF1": 0.732,
+        "L2_n": 300
+      },
+      "B1": {
+        "L1_mcarF1": 1.0,
+        "L1_acc": 1.0,
+        "L2_marMnarF1": 0.649,
+        "L2_n": 300
+      },
+      "B2": {
+        "L1_mcarF1": 0.985,
+        "L1_acc": 0.97,
+        "L2_marMnarF1": 0.811,
+        "L2_n": 300
+      }
+    },
+    "trivial": {
+      "n_tables": 300,
+      "p_nonmcar": 1.0,
+      "p_mnar_within_nonmcar": 0.667,
+      "trivial_L1_F1": 1.0,
+      "trivial_L2_F1": 0.8,
+      "trivial_L2_acc": 0.667
+    },
+    "meta": {
+      "ckpt": "e1_model_retrain.pt",
+      "shift": 0,
+      "tag": "_r",
+      "probe_train_seed": 21,
+      "probe_per_class": 250,
+      "degraded": {
+        "skip->mcar": 62
+      }
+    }
+  },
+  "real": {
+    "systems": {
+      "model": {
+        "L1_mcarF1": 0.834,
+        "L1_acc": 0.773,
+        "L2_marMnarF1": 0.617,
+        "L2_n": 304
+      },
+      "B1": {
+        "L1_mcarF1": 0.826,
+        "L1_acc": 0.704,
+        "L2_marMnarF1": 0.735,
+        "L2_n": 304
+      },
+      "B2": {
+        "L1_mcarF1": 0.861,
+        "L1_acc": 0.792,
+        "L2_marMnarF1": 0.753,
+        "L2_n": 304
+      }
+    },
+    "trivial": {
+      "n_tables": 432,
+      "p_nonmcar": 0.704,
+      "p_mnar_within_nonmcar": 0.711,
+      "trivial_L1_F1": 0.826,
+      "trivial_L2_F1": 0.831,
+      "trivial_L2_acc": 0.711
+    },
+    "meta": {
+      "ckpt": "e1_model_retrain.pt",
+      "shift": 0,
+      "tag": "_r",
+      "probe_train_seed": 21,
+      "probe_per_class": 250,
+      "degraded": {
+        "skip->mcar": 62
+      }
+    }
+  },
+  "real_novel": {
+    "systems": {
+      "model": {
+        "L1_mcarF1": 0.904,
+        "L1_acc": 0.825,
+        "L2_marMnarF1": 0.519,
+        "L2_n": 240
+      },
+      "B1": {
+        "L1_mcarF1": 1.0,
+        "L1_acc": 1.0,
+        "L2_marMnarF1": 0.683,
+        "L2_n": 240
+      },
+      "B2": {
+        "L1_mcarF1": 0.954,
+        "L1_acc": 0.912,
+        "L2_marMnarF1": 0.801,
+        "L2_n": 240
+      }
+    },
+    "trivial": {
+      "n_tables": 240,
+      "p_nonmcar": 1.0,
+      "p_mnar_within_nonmcar": 0.667,
+      "trivial_L1_F1": 1.0,
+      "trivial_L2_F1": 0.8,
+      "trivial_L2_acc": 0.667
+    },
+    "meta": {
+      "ckpt": "e1_model_retrain.pt",
+      "shift": 0,
+      "tag": "_r",
+      "probe_train_seed": 21,
+      "probe_per_class": 250,
+      "degraded": {
+        "skip->mcar": 62
+      }
+    }
+  }
+}

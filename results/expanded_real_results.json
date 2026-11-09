@@ -1,0 +1,56 @@
+{
+  "per_source": {
+    "sklearn_breast_cancer": {
+      "MissDx": 0.631,
+      "probe": 0.513,
+      "n": 48
+    },
+    "sklearn_diabetes": {
+      "MissDx": 0.413,
+      "probe": 0.632,
+      "n": 48
+    },
+    "openml_30": {
+      "MissDx": 0.37,
+      "probe": 0.333,
+      "n": 48
+    },
+    "openml_1120": {
+      "MissDx": 0.724,
+      "probe": 0.777,
+      "n": 48
+    },
+    "balancing-scale": {
+      "MissDx": 0.478,
+      "probe": 0.375,
+      "n": 48
+    },
+    "qsar-biodeg": {
+      "MissDx": 0.455,
+      "probe": 0.472,
+      "n": 48
+    },
+    "wine-quality-white": {
+      "MissDx": 0.483,
+      "probe": 0.095,
+      "n": 48
+    },
+    "synthetic-control": {
+      "MissDx": 0.449,
+      "probe": 0.295,
+      "n": 48
+    },
+    "ILPD": {
+      "MissDx": 0.554,
+      "probe": 0.656,
+      "n": 48
+    }
+  },
+  "pooled": {
+    "MissDx": 0.69,
+    "probe": 0.721,
+    "prevalence": 0.675,
+    "n": 432,
+    "n_sources": 9
+  }
+}

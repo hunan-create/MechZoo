@@ -1,0 +1,14 @@
+{
+  "ckpt": "e1_model_retrain.pt",
+  "n": 900,
+  "n_lat": 150,
+  "n_dec_ok": 559,
+  "entropy_lat": 0.636,
+  "entropy_dec_correct": 0.35,
+  "sep": 0.286,
+  "ci95": [
+    0.241,
+    0.33
+  ],
+  "boot": 2000
+}

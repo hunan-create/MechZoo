@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "ckpt": "e1_model_retrain.pt",
+    "h": 128,
+    "probe_seed": 21,
+    "probe_per_class": 250,
+    "boot": 2000,
+    "shift": 1
+  },
+  "cells": {
+    "in_dist": {
+      "n_tables": 900,
+      "L1_f1": 0.945,
+      "L1_acc": 0.908,
+      "L2_f1": 0.879,
+      "L2_acc": 0.851,
+      "L2_n": 746,
+      "trivial": {
+        "L1_F1_allpos": 0.906,
+        "L2_F1_majority": 0.753,
+        "L2_acc_majority": 0.603,
+        "p_nonmcar": 0.829,
+        "p_mnar": 0.603
+      },
+      "ece6": 0.0272,
+      "ece3": 0.0298,
+      "covrisk_090": {
+        "coverage": 0.425,
+        "risk": 0.0473,
+        "n_cov": 317
+      },
+      "B1": {
+        "L1_f1": 0.906,
+        "L2_f1": 0.823,
+        "ece6": 0.0289,
+        "ece3": 0.0403
+      },
+      "B2": {
+        "L1_f1": 0.93,
+        "L2_f1": 0.876,
+        "ece6": 0.0607,
+        "ece3": 0.0621
+      }
+    },
+    "base_fresh": {
+      "n_tables": 600,
+      "L1_f1": 0.947,
+      "L1_acc": 0.91,
+      "L2_f1": 0.899,
+      "L2_acc": 0.875,
+      "L2_n": 497,
+      "trivial": {
+        "L1_F1_allpos": 0.906,
+        "L2_F1_majority": 0.753,
+        "L2_acc_majority": 0.604,
+        "p_nonmcar": 0.828,
+        "p_mnar": 0.604
+      },
+      "ece6": 0.0368,
+      "ece3": 0.0293,
+      "covrisk_090": {
+        "coverage": 0.435,
+        "risk": 0.0231,
+        "n_cov": 216
+      },
+      "B1": {
+        "L1_f1": 0.906,
+        "L2_f1": 0.837,
+        "ece6": 0.0634,
+        "ece3": 0.0325
+      },
+      "B2": {
+        "L1_f1": 0.93,
+        "L2_f1": 0.899,
+        "ece6": 0.0659,
+        "ece3": 0.072
+      }
+    },
+    "novel": {
+      "n_tables": 300,
+      "L1_f1": 0.995,
+      "L1_acc": 0.99,
+      "L2_f1": 0.808,
+      "L2_acc": 0.74,
+      "L2_n": 300,
+      "trivial": {
+        "L1_F1_allpos": 1.0,
+        "L2_F1_majority": 0.8,
+        "L2_acc_majority": 0.667,
+        "p_nonmcar": 1.0,
+        "p_mnar": 0.667
+      },
+      "ece6": null,
+      "ece3": 0.0531,
+      "covrisk_090": {
+        "coverage": 0.203,
+        "risk": 0.0984,
+        "n_cov": 61
+      },
+      "B1": {
+        "L1_f1": 1.0,
+        "L2_f1": 0.77,
+        "ece6": null,
+        "ece3": 0.116
+      },
+      "B2": {
+        "L1_f1": 0.98,
+        "L2_f1": 0.857,
+        "ece6": null,
+        "ece3": 0.0949
+      }
+    },
+    "real_inj": {
+      "n_tables": 192,
+      "L1_f1": 0.875,
+      "L1_acc": 0.833,
+      "L2_f1": 0.675,
+      "L2_acc": 0.609,
+      "L2_n": 128,
+      "trivial": {
+        "L1_F1_allpos": 0.8,
+        "L2_F1_majority": 0.857,
+        "L2_acc_majority": 0.75,
+        "p_nonmcar": 0.667,
+        "p_mnar": 0.75
+      },
+      "ece6": 0.1673,
+      "ece3": 0.1363,
+      "covrisk_090": {
+        "coverage": 0.312,
+        "risk": 0.425,
+        "n_cov": 40
+      },
+      "B1": {
+        "L1_f1": 0.8,
+        "L2_f1": 0.79,
+        "ece6": 0.0984,
+        "ece3": 0.1704
+      },
+      "B2": {
+        "L1_f1": 0.858,
+        "L2_f1": 0.858,
+        "ece6": 0.0532,
+        "ece3": 0.0643
+      }
+    },
+    "joint_shift": {
+      "n_tables": 240,
+      "L1_f1": 0.912,
+      "L1_acc": 0.838,
+      "L2_f1": 0.529,
+      "L2_acc": 0.525,
+      "L2_n": 240,
+      "trivial": {
+        "L1_F1_allpos": 1.0,
+        "L2_F1_majority": 0.8,
+        "L2_acc_majority": 0.667,
+        "p_nonmcar": 1.0,
+        "p_mnar": 0.667
+      },
+      "ece6": null,
+      "ece3": 0.3035,
+      "covrisk_090": {
+        "coverage": 0.304,
+        "risk": 0.5068,
+        "n_cov": 73
+      },
+      "B1": {
+        "L1_f1": 1.0,
+        "L2_f1": 0.744,
+        "ece6": null,
+        "ece3": 0.037
+      },
+      "B2": {
+        "L1_f1": 0.959,
+        "L2_f1": 0.793,
+        "ece6": null,
+        "ece3": 0.1321
+      }
+    }
+  },
+  "auroc": {
+    "n": 1092,
+    "n_nonmcar": 925,
+    "n_mcar": 167,
+    "model": 0.9588,
+    "little": 0.9025,
+    "diff_pp": 5.63,
+    "diff_ci95": [
+      3.76,
+      7.54
+    ],
+    "model_smalln": 0.9622,
+    "little_smalln": 0.9097,
+    "smalln_rows_lt": 600,
+    "smalln_n": 493
+  }
+}

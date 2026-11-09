@@ -1,0 +1,80 @@
+{
+  "f1_model": 0.762,
+  "f1_probe": 0.715,
+  "acc_model": 0.764,
+  "ece": 0.045,
+  "f1_dec_model": 0.777,
+  "f1_dec_probe": 0.743,
+  "mar_mnar_f1_model": 0.859,
+  "mar_mnar_f1_probe": 0.866,
+  "entropy_lat": 0.64,
+  "entropy_dec_correct": 0.35,
+  "param_spearman": 0.399,
+  "n_params_M": 0.25,
+  "steps": 9000,
+  "gate_a": false,
+  "gate_b": false,
+  "gate_c": false,
+  "confusion": [
+    [
+      106,
+      0,
+      0,
+      42,
+      1,
+      1
+    ],
+    [
+      3,
+      84,
+      36,
+      4,
+      0,
+      23
+    ],
+    [
+      1,
+      23,
+      109,
+      3,
+      0,
+      14
+    ],
+    [
+      22,
+      0,
+      0,
+      126,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      148,
+      0
+    ],
+    [
+      8,
+      10,
+      8,
+      9,
+      0,
+      115
+    ]
+  ],
+  "args": {
+    "smoke": false,
+    "pool_per_class": 4000,
+    "test_per_class": 150,
+    "probe_n": 3000,
+    "epochs": 12,
+    "bs": 32,
+    "h": 128,
+    "device": "cuda",
+    "out": "e1_iter2_results.json",
+    "ckpt": "e1_model_iter2.pt"
+  }
+}

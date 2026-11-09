@@ -1,0 +1,22 @@
+{
+  "base_fresh": {
+    "auroc_standard": 0.5,
+    "auroc_simplified": 0.866,
+    "n": 600
+  },
+  "novel": {
+    "auroc_standard": null,
+    "auroc_simplified": null,
+    "n": 300
+  },
+  "real_inj": {
+    "auroc_standard": 0.5,
+    "auroc_simplified": 0.862,
+    "n": 192
+  },
+  "joint_shift": {
+    "auroc_standard": null,
+    "auroc_simplified": null,
+    "n": 240
+  }
+}
